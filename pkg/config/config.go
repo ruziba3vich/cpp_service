@@ -21,7 +21,7 @@ func NewConfig() *Config {
 		LogPath:             getEnv("LOG_PATH", "app.log"),
 		AppPort:             getEnv("APP_PORT", "7774"),
 		CppContainerName:    getEnv("CPP_CONTAINER_NAME", "cpp-executor"),
-		CppExecutableName:   getEnv("JAVA_CLASS_NAME", "program"),
+		CppExecutableName:   getEnv("CPP_EXECUTABLE_NAME", "program"),
 		CppSourceFileName:   getEnv("CPP_SOURCE_FILE_NAME", "main.cpp"),
 		ContainerWorkingDir: getEnv("CONTAINER_WORKING_DIR", "/app"),
 		CompilationTimeout:  getEnvTime("COMPILATION_TIME_OUT", 15),
