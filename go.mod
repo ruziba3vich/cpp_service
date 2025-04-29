@@ -5,7 +5,6 @@ go 1.24.2
 require (
 	github.com/google/uuid v1.6.0
 	github.com/joho/godotenv v1.5.1
-	github.com/ruziba3vich/java_service v0.0.0-20250425213607-94ecee9df8ad
 	github.com/ruziba3vich/prodonik_lgger v1.0.0
 	go.uber.org/fx v1.23.0
 	google.golang.org/grpc v1.72.0
