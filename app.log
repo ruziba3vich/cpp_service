@@ -1,0 +1,32 @@
+{"client_addr":"[::1]:33830","level":"info","msg":"New C++ Execute stream started","time":"2025-04-29T07:28:33+05:00"}
+{"client_addr":"[::1]:33830","level":"info","msg":"Initial request received, establishing session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:28:33+05:00"}
+{"level":"info","msg":"New C++ client created and stored","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:28:33+05:00"}
+{"input_length":77,"level":"info","msg":"Received Input payload: \"#include \u003ciostream\u003e\\nint main() {\\n std::cout \u003c\u003c \\\"Try programiz.pro\\\";return 0;}\"","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:28:33+05:00"}
+{"input":"#include \u003ciostream\u003e\nint main() {\n std::cout \u003c\u003c \"Try programiz.pro\";return 0;}","level":"info","msg":"Received input \"#include \u003ciostream\u003e\\nint main() {\\n std::cout \u003c\u003c \\\"Try programiz.pro\\\";return 0;}\" but stdin is nil (process not running or already finished?)","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:28:33+05:00"}
+{"client_addr":"[::1]:33830","level":"info","msg":"Stream closed by client (EOF)","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"C++ Execute stream ended. Initiating cleanup for session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"Removing C++ client session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"Starting cleanup","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"Context done in SendResponses: context canceled","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"SendResponses goroutine finished","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"command":"docker exec cpp-executor sh -c rm -f /app/main.cpp /app/program","level":"info","msg":"Attempting to clean up container files (cpp source and executable)","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"Container files cleanup command executed successfully","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"Cleanup finished","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"C++ client session removed","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"level":"info","msg":"Stream context done (context canceled), cancelling client context for C++ session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:35+05:00"}
+{"client_addr":"[::1]:52788","level":"info","msg":"New C++ Execute stream started","time":"2025-04-29T07:29:37+05:00"}
+{"client_addr":"[::1]:52788","level":"info","msg":"Initial request received, establishing session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:37+05:00"}
+{"level":"info","msg":"New C++ client created and stored","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:37+05:00"}
+{"input_length":0,"level":"info","msg":"Received Input payload: \"\"","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:37+05:00"}
+{"input":"","level":"info","msg":"Received input \"\" but stdin is nil (process not running or already finished?)","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:29:37+05:00"}
+{"client_addr":"[::1]:52788","level":"info","msg":"Stream closed by client (EOF)","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:00+05:00"}
+{"level":"info","msg":"C++ Execute stream ended. Initiating cleanup for session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:00+05:00"}
+{"level":"info","msg":"Removing C++ client session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:01+05:00"}
+{"level":"info","msg":"Starting cleanup","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:01+05:00"}
+{"level":"info","msg":"Context done in SendResponses: context canceled","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:01+05:00"}
+{"level":"info","msg":"SendResponses goroutine finished","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:01+05:00"}
+{"command":"docker exec cpp-executor sh -c rm -f /app/main.cpp /app/program","level":"info","msg":"Attempting to clean up container files (cpp source and executable)","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:01+05:00"}
+{"level":"info","msg":"Container files cleanup command executed successfully","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:03+05:00"}
+{"level":"info","msg":"Cleanup finished","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:03+05:00"}
+{"level":"info","msg":"C++ client session removed","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:03+05:00"}
+{"level":"info","msg":"Stream context done (context canceled), cancelling client context for C++ session","session_id":"f19a6393-45b1-49d2-a8bc-01485ba1efe3","time":"2025-04-29T07:30:03+05:00"}

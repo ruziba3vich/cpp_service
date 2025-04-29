@@ -8,15 +8,16 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -ldflags="-w -s" -o /app/compiler-service ./main.go
+RUN go build -ldflags="-w -s" -o /app/compiler-service ./cmd/main.go
 
 FROM alpine:latest
+
+RUN apk add --no-cache ca-certificates docker-cli
 
 WORKDIR /app
 
 COPY --from=builder /app/compiler-service .
 
-COPY config.yaml ./
 EXPOSE 7774
 
 CMD ["./compiler-service"]
