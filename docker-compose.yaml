@@ -1,0 +1,28 @@
+services:
+  cpp-executor:
+    build:
+      context: ./cpp-executor
+      args:
+        APP_DIR: /app
+    container_name: cpp-executor
+    restart: always
+    networks:
+      - compiler-net 
+
+  compiler-service:
+    build:
+      context: .
+    container_name: compiler-service
+    restart: on-failure
+    ports:
+      - "7774:7774"
+    depends_on:
+      - cpp-executor
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - compiler-net
+
+networks:
+  compiler-net:
+    driver: bridge
