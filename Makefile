@@ -1,4 +1,4 @@
 .PHONY: proto
 
 proto:
-	./generate_protos.sh
+	./generate_compiler_protos.sh
