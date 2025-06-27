@@ -19,7 +19,7 @@ func NewConfig() *Config {
 	_ = godotenv.Load()
 	return &Config{
 		LogPath:             getEnv("LOG_PATH", "app.log"),
-		AppPort:             getEnv("APP_PORT", "7774"),
+		AppPort:             getEnv("APP_PORT", "703"),
 		CppContainerName:    getEnv("CPP_CONTAINER_NAME", "cpp-executor"),
 		CppExecutableName:   getEnv("CPP_EXECUTABLE_NAME", "program"),
 		CppSourceFileName:   getEnv("CPP_SOURCE_FILE_NAME", "main.cpp"),
