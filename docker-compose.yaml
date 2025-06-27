@@ -15,7 +15,7 @@ services:
     container_name: compiler-service
     restart: on-failure
     ports:
-      - "7774:7774"
+      - "703:703"
     depends_on:
       - cpp-executor
     volumes:
