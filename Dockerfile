@@ -18,6 +18,6 @@ WORKDIR /app
 
 COPY --from=builder /app/compiler-service .
 
-EXPOSE 7774
+EXPOSE 703
 
 CMD ["./compiler-service"]
